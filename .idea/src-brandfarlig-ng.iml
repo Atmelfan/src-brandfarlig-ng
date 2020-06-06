@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="CPP_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/examples" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/tests" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/benches" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/tactical/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/behaviour/examples" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/behaviour/tests" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/behaviour/benches" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/behaviour-run/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/behaviour-run/examples" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/behaviour-run/tests" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/behaviour-run/benches" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/recorder/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/common/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/navigation/src" isTestSource="false" />
+      <excludeFolder url="file://$MODULE_DIR$/behaviour-run/target" />
+      <excludeFolder url="file://$MODULE_DIR$/behaviour/target" />
+      <excludeFolder url="file://$MODULE_DIR$/target" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>

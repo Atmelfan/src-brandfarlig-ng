@@ -1,0 +1,21 @@
+[package]
+name = "common"
+version = "0.1.0"
+authors = ["Atmelfan <gustavp@gpa-robotics.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+git-version = "0.3.4"
+structopt = { version = "0.3", optional = true }
+serde = { version = "1.0", default-features = false, features = ["derive"] }
+libc = { version = "0.2.71", default-features = false}
+
+[features]
+# Default to use std
+# Set default-options=false for no_std
+default = ["std"]
+
+# Std can use structopt and serde with std
+std = ["structopt", "serde/std", "libc/std"]

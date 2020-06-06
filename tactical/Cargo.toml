@@ -1,0 +1,18 @@
+[package]
+name = "tactical"
+version = "0.1.0"
+authors = ["Atmelfan <gustavp@gpa-robotics.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+serde = { version = "1.0.104", features = ["derive"] }
+serde_json = "1.0.48"
+enum_dispatch = "0.3.0"
+
+
+[build-dependencies]
+serde = { version = "1.0.104", features = ["derive"] }
+serde_json = "1.0.48"
+heck = "0.3.1"

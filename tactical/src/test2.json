@@ -1,0 +1,15 @@
+{
+	"type": "Selector",
+	"name": "rootNode",
+	"services": [
+		{
+			"type": "Comment",
+			"properties": [
+				{
+					"name": "Comment",
+					"value": "I am a subtree"
+				}
+			]
+		}
+	]
+}

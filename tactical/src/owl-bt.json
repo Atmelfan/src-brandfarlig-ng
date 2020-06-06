@@ -1,0 +1,55 @@
+{
+    "nodes": [
+        {
+            "name": "Selector",
+            "icon": "question",
+            "isComposite": true
+        },
+        {
+            "name": "Sequence",
+            "icon": "arrow-right",
+            "isComposite": true
+        },
+        {
+            "name": "Subtree",
+            "icon": "sitemap",
+            "isComposite": false,
+            "description": "{{Path}}",
+            "properties": [
+                {
+                    "name": "Path",
+                    "default": "",
+                    "type": "string"
+                }
+            ]
+        }
+    ],
+    "decorators": [
+        {
+            "name": "Failure",
+            "icon": "thumbs-o-down"
+        },
+        {
+            "name": "Invert",
+            "icon": "exchange"
+        },
+        {
+            "name": "Success",
+            "icon": "thumbs-o-up"
+        }
+    ],
+    "services": [
+        {
+            "name": "Comment",
+            "icon": "comment",
+            "description": "{{Comment}}",
+            "properties": [
+                {
+                    "name": "Comment",
+                    "default": "",
+                    "type": "string"
+                }
+            ]
+        }
+    ]
+}

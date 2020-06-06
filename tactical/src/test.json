@@ -1,0 +1,97 @@
+{
+	"type": "Selector",
+	"name": "rootNode",
+	"services": [
+		{
+			"type": "Comment",
+			"properties": [
+				{
+					"name": "Comment",
+					"value": "Root node"
+				}
+			]
+		}
+	],
+	"childNodes": [
+		{
+			"type": "Sequence",
+			"services": [
+				{
+					"type": "Comment",
+					"properties": [
+						{
+							"name": "Comment",
+							"value": "Avoid edge"
+						}
+					]
+				}
+			],
+			"childNodes": [
+				{
+					"type": "Selector"
+				},
+				{
+					"type": "Selector"
+				},
+				{
+					"type": "Selector"
+				},
+				{
+					"type": "Selector"
+				}
+			]
+		},
+		{
+			"type": "Sequence",
+			"services": [
+				{
+					"type": "Comment",
+					"properties": [
+						{
+							"name": "Comment",
+							"value": "Confront enemy"
+						}
+					]
+				}
+			],
+			"childNodes": [
+				{
+					"type": "Selector"
+				},
+				{
+					"type": "Selector"
+				}
+			]
+		},
+		{
+			"type": "Sequence",
+			"decorators": [
+				{
+					"type": "Success"
+				}
+			],
+			"services": [
+				{
+					"type": "Comment",
+					"properties": [
+						{
+							"name": "Comment",
+							"value": "Search for enemy"
+						}
+					]
+				}
+			],
+			"childNodes": [
+				{
+					"type": "Subtree",
+					"properties": [
+						{
+							"name": "Path",
+							"value": "src/test2.json"
+						}
+					]
+				}
+			]
+		}
+	]
+}
